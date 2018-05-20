@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Latitud,Longitud</title>
+
+
+
+  <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://js.arcgis.com/3.23/esri/themes/calcite/dijit/calcite.css">
+  <link rel="stylesheet" href="https://js.arcgis.com/3.23/esri/themes/calcite/esri/esri.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://js.arcgis.com/3.23/"></script>
+  <!--api de javascript de esri-->
+
+  <script src="js/js.js" charset="utf-8"></script>
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body class="calcite">
+
+
+  <div id="mainCont">
+
+
+    <div id="tituloCont">
+      <div id="logo">
+
+      <img src="imagenes\angelsuarez.png" width="80" height="80" alt="logo gis ">
+  </div>
+
+    </div>
+
+    <div id="menuIzqCont">
+      <p>Introduzca el Zoom</p>
+      <input id="inputZoom" type="number">
+      <div id="BotonIrZoom">
+      <button id="btnCalcZoom" type="button" class="btn btn-info" name="button">Ir al Zoom</button>
+      </div>
+
+
+      <p id="pEscala"></p>
+
+      <p>Latitud</p>
+      <input id="inputLon" type="number">
+      <p>Longitud</p>
+      <input id="inputLat" type="number">
+              <div id="LatLonZoom">
+      <button id="btnLatLon" type="button" class="btn btn-info" name="button">Ir a (Latitud, Longitud y Zoom)</button>
+        </div>
+        <div id="Boton15">
+        <button id="btnZoom" type="button" class="btn btn-secondary" name="button">Zoom (15)</button>
+        </div>
+<!--
+      <div id="NorteSur">
+      <button id="N" type="button" name="button">Norte</button>
+      <button id="S" type="button" name="button">Sur</button>
+    </div>
+-->
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <div id="mapaCont"> </div>
+
+  </div>
+
+
+
+
+</body>
+
+</html>
